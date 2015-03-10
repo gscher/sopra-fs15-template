@@ -70,6 +70,7 @@ public class UserServiceControllerIT {
 		UserResponseBean userResponse = userResponseEntity.getBody(); 
 		Assert.assertEquals(request.getName(), userResponse.getName());
 		Assert.assertEquals(request.getUsername(), userResponse.getUsername());
+		assert(false);
 	}
 
 }
